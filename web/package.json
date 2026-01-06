@@ -1,0 +1,46 @@
+{
+	"name": "tju-rl-home-website",
+	"version": "0.0.1",
+	"description": "Home page of TJU RL",
+	"productName": "TJU-RL",
+	"author": "chaoslee <chaos2lee@qq.com>",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"lint": "eslint --fix -c ./eslint.config.js \"./src*/**/*.{ts,js,cjs,mjs,vue}\"",
+		"format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+		"dev": "quasar dev",
+		"build": "quasar build",
+		"postinstall": "quasar prepare"
+	},
+	"dependencies": {
+		"vue-i18n": "^11.2.8",
+		"@quasar/extras": "^1.17.0",
+		"quasar": "^2.18.6",
+		"vue": "^3.5.26",
+		"vue-router": "^4.6.4"
+	},
+	"devDependencies": {
+		"@produck/eslint-rules": "^0.2.6",
+		"@eslint/js": "^9.39.2",
+		"eslint": "^9.39.2",
+		"eslint-plugin-vue": "^10.6.2",
+		"globals": "^17.0.0",
+		"vue-tsc": "^3.2.2",
+		"@vue/eslint-config-typescript": "^14.6.0",
+		"vite-plugin-checker": "^0.12.0",
+		"vue-eslint-parser": "^10.2.0",
+		"@vue/eslint-config-prettier": "^10.2.0",
+		"prettier": "^3.7.4",
+		"@types/node": "^25.0.3",
+		"@intlify/unplugin-vue-i18n": "^11.0.3",
+		"@quasar/app-vite": "^2.4.0",
+		"autoprefixer": "^10.4.2",
+		"typescript": "^5.9.3"
+	},
+	"engines": {
+		"node": "^28 || ^26 || ^24 || ^22 || ^20",
+		"npm": ">= 6.13.4",
+		"yarn": ">= 1.21.1"
+	}
+}
