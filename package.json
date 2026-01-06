@@ -16,6 +16,6 @@
 	},
 	"workspaces": [
 		"web",
-		"docs"
+		"doc"
 	]
 }
