@@ -1,3 +1,4 @@
 ---
 code: zh-CN
+label: 简体中文
 ---
